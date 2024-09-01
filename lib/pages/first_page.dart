@@ -22,6 +22,7 @@ class FirstPage extends StatelessWidget {
               leading: const Icon(Icons.home),
               title: const Text("H O M E"),
               onTap: () {
+                Navigator.pop(context);
                 Navigator.pushNamed(context, '/homepage');
               },
             ),
@@ -29,6 +30,7 @@ class FirstPage extends StatelessWidget {
               leading: const Icon(Icons.settings),
               title: const Text("S E T T I N G S"),
               onTap: () {
+                Navigator.pop(context);
                 Navigator.pushNamed(context, '/settingspage');
               },
             ),

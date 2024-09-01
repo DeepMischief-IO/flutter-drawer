@@ -1,6 +1,5 @@
 import 'package:demo_test/pages/first_page.dart';
 import 'package:demo_test/pages/home_page.dart';
-
 import 'package:demo_test/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/firstpage': (context) => const FirstPage(),
         '/homepage': (context) => const HomePage(),
-        '/settingspage': (context) => const settingsPage(),
+        '/settingspage': (context) => const SettingsPage(),
       },
     );
   }
